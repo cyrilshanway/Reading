@@ -14,6 +14,15 @@
 		766B18C21A1379480045191D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766B18C11A1379480045191D /* Images.xcassets */; };
 		766B18C51A1379480045191D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 766B18C31A1379480045191D /* LaunchScreen.xib */; };
 		766B18D11A1379480045191D /* ReadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 766B18D01A1379480045191D /* ReadingTests.m */; };
+		766B18DC1A137DB00045191D /* head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 766B18DB1A137DB00045191D /* head.jpg */; };
+		766B18E11A137FC90045191D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 766B18E01A137FC90045191D /* LoginViewController.m */; };
+		766B18E41A13849C0045191D /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 766B18E31A13849C0045191D /* Book.m */; };
+		766B18E71A1385880045191D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 766B18E61A1385880045191D /* SearchViewController.m */; };
+		766B18EB1A1388BE0045191D /* Camera-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 766B18EA1A1388BE0045191D /* Camera-32.png */; };
+		766B18ED1A1389450045191D /* pushCamera32.png in Resources */ = {isa = PBXBuildFile; fileRef = 766B18EC1A1389450045191D /* pushCamera32.png */; };
+		766B18F01A138D0C0045191D /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 766B18EF1A138D0C0045191D /* RegisterViewController.m */; };
+		766B18F21A1393AB0045191D /* search-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 766B18F11A1393AB0045191D /* search-32.png */; };
+		D2DDE039D00341BACF30B8A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF955B18CB2568A1FF525231 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +36,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67E7BDA181D928C08CB71DF4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		766B18B11A1379480045191D /* Reading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		766B18B51A1379480045191D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		766B18B61A1379480045191D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		766B18B81A1379480045191D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		766B18B91A1379480045191D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		766B18BB1A1379480045191D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		766B18BC1A1379480045191D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		766B18BB1A1379480045191D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Reading/ViewController.h; sourceTree = "<group>"; };
+		766B18BC1A1379480045191D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Reading/ViewController.m; sourceTree = "<group>"; };
 		766B18BF1A1379480045191D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		766B18C11A1379480045191D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		766B18C41A1379480045191D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		766B18CA1A1379480045191D /* ReadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		766B18CF1A1379480045191D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		766B18D01A1379480045191D /* ReadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadingTests.m; sourceTree = "<group>"; };
+		766B18DB1A137DB00045191D /* head.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head.jpg; sourceTree = "<group>"; };
+		766B18DF1A137FC90045191D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		766B18E01A137FC90045191D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		766B18E21A13849C0045191D /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		766B18E31A13849C0045191D /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		766B18E51A1385880045191D /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		766B18E61A1385880045191D /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		766B18EA1A1388BE0045191D /* Camera-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera-32.png"; sourceTree = "<group>"; };
+		766B18EC1A1389450045191D /* pushCamera32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushCamera32.png; sourceTree = "<group>"; };
+		766B18EE1A138D0C0045191D /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		766B18EF1A138D0C0045191D /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		766B18F11A1393AB0045191D /* search-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-32.png"; sourceTree = "<group>"; };
+		A5EEF3296A8E79D5F8EDAA6D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BF955B18CB2568A1FF525231 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DDE039D00341BACF30B8A9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +88,14 @@
 		766B18A81A1379480045191D = {
 			isa = PBXGroup;
 			children = (
+				766B18DE1A137F410045191D /* View */,
+				766B18DD1A137F310045191D /* ViewControllers */,
+				766B18DA1A137D9C0045191D /* pics */,
 				766B18B31A1379480045191D /* Reading */,
 				766B18CD1A1379480045191D /* ReadingTests */,
 				766B18B21A1379480045191D /* Products */,
+				86F16A2E19959E28251A0B69 /* Pods */,
+				E185D35CD632ACEF0D7D5326 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +113,6 @@
 			children = (
 				766B18B81A1379480045191D /* AppDelegate.h */,
 				766B18B91A1379480045191D /* AppDelegate.m */,
-				766B18BB1A1379480045191D /* ViewController.h */,
-				766B18BC1A1379480045191D /* ViewController.m */,
 				766B18BE1A1379480045191D /* Main.storyboard */,
 				766B18C11A1379480045191D /* Images.xcassets */,
 				766B18C31A1379480045191D /* LaunchScreen.xib */,
@@ -119,6 +147,58 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		766B18DA1A137D9C0045191D /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				766B18EA1A1388BE0045191D /* Camera-32.png */,
+				766B18EC1A1389450045191D /* pushCamera32.png */,
+				766B18F11A1393AB0045191D /* search-32.png */,
+				766B18DB1A137DB00045191D /* head.jpg */,
+			);
+			name = pics;
+			sourceTree = "<group>";
+		};
+		766B18DD1A137F310045191D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				766B18DF1A137FC90045191D /* LoginViewController.h */,
+				766B18E01A137FC90045191D /* LoginViewController.m */,
+				766B18BB1A1379480045191D /* ViewController.h */,
+				766B18BC1A1379480045191D /* ViewController.m */,
+				766B18E51A1385880045191D /* SearchViewController.h */,
+				766B18E61A1385880045191D /* SearchViewController.m */,
+				766B18EE1A138D0C0045191D /* RegisterViewController.h */,
+				766B18EF1A138D0C0045191D /* RegisterViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		766B18DE1A137F410045191D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				766B18E21A13849C0045191D /* Book.h */,
+				766B18E31A13849C0045191D /* Book.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		86F16A2E19959E28251A0B69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67E7BDA181D928C08CB71DF4 /* Pods.debug.xcconfig */,
+				A5EEF3296A8E79D5F8EDAA6D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E185D35CD632ACEF0D7D5326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF955B18CB2568A1FF525231 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 766B18D41A1379480045191D /* Build configuration list for PBXNativeTarget "Reading" */;
 			buildPhases = (
+				2647CB0B51752FB02A8ECE25 /* Check Pods Manifest.lock */,
 				766B18AD1A1379480045191D /* Sources */,
 				766B18AE1A1379480045191D /* Frameworks */,
 				766B18AF1A1379480045191D /* Resources */,
+				1CEEF9B7E03224486B719888 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,7 +281,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766B18EB1A1388BE0045191D /* Camera-32.png in Resources */,
 				766B18C01A1379480045191D /* Main.storyboard in Resources */,
+				766B18F21A1393AB0045191D /* search-32.png in Resources */,
+				766B18DC1A137DB00045191D /* head.jpg in Resources */,
+				766B18ED1A1389450045191D /* pushCamera32.png in Resources */,
 				766B18C51A1379480045191D /* LaunchScreen.xib in Resources */,
 				766B18C21A1379480045191D /* Images.xcassets in Resources */,
 			);
@@ -214,13 +300,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CEEF9B7E03224486B719888 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2647CB0B51752FB02A8ECE25 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		766B18AD1A1379480045191D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766B18E41A13849C0045191D /* Book.m in Sources */,
+				766B18E11A137FC90045191D /* LoginViewController.m in Sources */,
 				766B18BD1A1379480045191D /* ViewController.m in Sources */,
 				766B18BA1A1379480045191D /* AppDelegate.m in Sources */,
+				766B18F01A138D0C0045191D /* RegisterViewController.m in Sources */,
+				766B18E71A1385880045191D /* SearchViewController.m in Sources */,
 				766B18B71A1379480045191D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +466,7 @@
 		};
 		766B18D51A1379480045191D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E7BDA181D928C08CB71DF4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Reading/Info.plist;
@@ -353,6 +477,7 @@
 		};
 		766B18D61A1379480045191D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5EEF3296A8E79D5F8EDAA6D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Reading/Info.plist;
@@ -414,6 +539,7 @@
 				766B18D61A1379480045191D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		766B18D71A1379480045191D /* Build configuration list for PBXNativeTarget "ReadingTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +548,7 @@
 				766B18D91A1379480045191D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
