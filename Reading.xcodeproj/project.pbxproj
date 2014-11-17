@@ -22,6 +22,8 @@
 		766B18ED1A1389450045191D /* pushCamera32.png in Resources */ = {isa = PBXBuildFile; fileRef = 766B18EC1A1389450045191D /* pushCamera32.png */; };
 		766B18F01A138D0C0045191D /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 766B18EF1A138D0C0045191D /* RegisterViewController.m */; };
 		766B18F21A1393AB0045191D /* search-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 766B18F11A1393AB0045191D /* search-32.png */; };
+		76C797561A14826200CB733B /* barcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C797551A14826200CB733B /* barcode.png */; };
+		76C797591A14862400CB733B /* SearchBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C797581A14862400CB733B /* SearchBookViewController.m */; };
 		D2DDE039D00341BACF30B8A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF955B18CB2568A1FF525231 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,9 @@
 		766B18EE1A138D0C0045191D /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		766B18EF1A138D0C0045191D /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		766B18F11A1393AB0045191D /* search-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-32.png"; sourceTree = "<group>"; };
+		76C797551A14826200CB733B /* barcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode.png; sourceTree = "<group>"; };
+		76C797571A14862400CB733B /* SearchBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBookViewController.h; sourceTree = "<group>"; };
+		76C797581A14862400CB733B /* SearchBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBookViewController.m; sourceTree = "<group>"; };
 		A5EEF3296A8E79D5F8EDAA6D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BF955B18CB2568A1FF525231 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -150,6 +155,7 @@
 		766B18DA1A137D9C0045191D /* pics */ = {
 			isa = PBXGroup;
 			children = (
+				76C797551A14826200CB733B /* barcode.png */,
 				766B18EA1A1388BE0045191D /* Camera-32.png */,
 				766B18EC1A1389450045191D /* pushCamera32.png */,
 				766B18F11A1393AB0045191D /* search-32.png */,
@@ -169,6 +175,8 @@
 				766B18E61A1385880045191D /* SearchViewController.m */,
 				766B18EE1A138D0C0045191D /* RegisterViewController.h */,
 				766B18EF1A138D0C0045191D /* RegisterViewController.m */,
+				76C797571A14862400CB733B /* SearchBookViewController.h */,
+				76C797581A14862400CB733B /* SearchBookViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -250,6 +258,7 @@
 				TargetAttributes = {
 					766B18B01A1379480045191D = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 8DCXL25R37;
 					};
 					766B18C91A1379480045191D = {
 						CreatedOnToolsVersion = 6.1;
@@ -287,6 +296,7 @@
 				766B18DC1A137DB00045191D /* head.jpg in Resources */,
 				766B18ED1A1389450045191D /* pushCamera32.png in Resources */,
 				766B18C51A1379480045191D /* LaunchScreen.xib in Resources */,
+				76C797561A14826200CB733B /* barcode.png in Resources */,
 				766B18C21A1379480045191D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +353,7 @@
 				766B18BD1A1379480045191D /* ViewController.m in Sources */,
 				766B18BA1A1379480045191D /* AppDelegate.m in Sources */,
 				766B18F01A138D0C0045191D /* RegisterViewController.m in Sources */,
+				76C797591A14862400CB733B /* SearchBookViewController.m in Sources */,
 				766B18E71A1385880045191D /* SearchViewController.m in Sources */,
 				766B18B71A1379480045191D /* main.m in Sources */,
 			);
@@ -420,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -456,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,9 +480,12 @@
 			baseConfigurationReference = 67E7BDA181D928C08CB71DF4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Reading/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -480,9 +494,12 @@
 			baseConfigurationReference = A5EEF3296A8E79D5F8EDAA6D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Reading/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
