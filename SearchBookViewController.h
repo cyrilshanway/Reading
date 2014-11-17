@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Cyrilshanway. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MyBookViewController.h"
 
-@interface SearchBookViewController : ViewController
+@interface SearchBookViewController : MyBookViewController
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end

@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Cyrilshanway. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MyBookViewController.h"
 
-@interface ViewController ()
+@interface MyBookViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MyBookViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

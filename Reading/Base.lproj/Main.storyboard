@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
@@ -123,7 +122,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="pwdTextField" destination="wPy-K7-6Xh" id="3wh-rI-dA6"/>
-                        <outlet property="userNameTextField" destination="qmP-0I-miY" id="mN5-tZ-nzR"/>
+                        <outlet property="userNameTextField" destination="qmP-0I-miY" id="NbZ-S5-qli"/>
                         <segue destination="EaP-by-ia7" kind="modal" identifier="showMyBooks" id="jcH-Y2-Toc"/>
                     </connections>
                 </viewController>
@@ -131,10 +130,10 @@
             </objects>
             <point key="canvasLocation" x="418.5" y="333.5"/>
         </scene>
-        <!--View Controller-->
+        <!--My Book View Controller-->
         <scene sceneID="J3m-OP-ZJK">
             <objects>
-                <viewController id="EaP-by-ia7" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="EaP-by-ia7" customClass="MyBookViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="swp-ZM-voU"/>
                         <viewControllerLayoutGuide type="bottom" id="rfE-6U-HKL"/>

@@ -8,9 +8,11 @@
 
 #import "LoginViewController.h"
 #import <Parse/Parse.h>
+#import "Book.h"
+
 
 @interface LoginViewController ()
-@property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
+//@property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *pwdTextField;
 
 @end
@@ -34,6 +36,10 @@
                                             // Do stuff after successful login.
                                             NSLog(@"successful");
                                             
+                                            //會員存到Book
+                                            NSString *bookOwner = self.pwdTextField.text;
+                                            Book *book = [[Book alloc] init];
+                                            book.owner = bookOwner;
                                             // 直接跳到下一頁
                                             [self performSegueWithIdentifier:@"showMyBooks" sender:nil];
                                         } else {
@@ -68,6 +74,10 @@
                                             
                                         }
                                     }];
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
 }
 
 /*

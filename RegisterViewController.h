@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Cyrilshanway. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MyBookViewController.h"
 
-@interface RegisterViewController : ViewController
+@interface RegisterViewController : MyBookViewController
 
 @end

@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 Cyrilshanway. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MyBookViewController.h"
 #import <ZBarSDK.h>
 
-@interface SearchViewController : ViewController
+@interface SearchViewController : MyBookViewController
 <
 UIAlertViewDelegate,ZBarReaderDelegate
 >

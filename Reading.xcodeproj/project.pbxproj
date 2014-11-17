@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		766B18B71A1379480045191D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 766B18B61A1379480045191D /* main.m */; };
 		766B18BA1A1379480045191D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 766B18B91A1379480045191D /* AppDelegate.m */; };
-		766B18BD1A1379480045191D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 766B18BC1A1379480045191D /* ViewController.m */; };
+		766B18BD1A1379480045191D /* MyBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 766B18BC1A1379480045191D /* MyBookViewController.m */; };
 		766B18C01A1379480045191D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766B18BE1A1379480045191D /* Main.storyboard */; };
 		766B18C21A1379480045191D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766B18C11A1379480045191D /* Images.xcassets */; };
 		766B18C51A1379480045191D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 766B18C31A1379480045191D /* LaunchScreen.xib */; };
@@ -44,8 +44,8 @@
 		766B18B61A1379480045191D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		766B18B81A1379480045191D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		766B18B91A1379480045191D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		766B18BB1A1379480045191D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Reading/ViewController.h; sourceTree = "<group>"; };
-		766B18BC1A1379480045191D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Reading/ViewController.m; sourceTree = "<group>"; };
+		766B18BB1A1379480045191D /* MyBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyBookViewController.h; path = Reading/MyBookViewController.h; sourceTree = "<group>"; };
+		766B18BC1A1379480045191D /* MyBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MyBookViewController.m; path = Reading/MyBookViewController.m; sourceTree = "<group>"; };
 		766B18BF1A1379480045191D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		766B18C11A1379480045191D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		766B18C41A1379480045191D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -169,8 +169,8 @@
 			children = (
 				766B18DF1A137FC90045191D /* LoginViewController.h */,
 				766B18E01A137FC90045191D /* LoginViewController.m */,
-				766B18BB1A1379480045191D /* ViewController.h */,
-				766B18BC1A1379480045191D /* ViewController.m */,
+				766B18BB1A1379480045191D /* MyBookViewController.h */,
+				766B18BC1A1379480045191D /* MyBookViewController.m */,
 				766B18E51A1385880045191D /* SearchViewController.h */,
 				766B18E61A1385880045191D /* SearchViewController.m */,
 				766B18EE1A138D0C0045191D /* RegisterViewController.h */,
@@ -350,7 +350,7 @@
 			files = (
 				766B18E41A13849C0045191D /* Book.m in Sources */,
 				766B18E11A137FC90045191D /* LoginViewController.m in Sources */,
-				766B18BD1A1379480045191D /* ViewController.m in Sources */,
+				766B18BD1A1379480045191D /* MyBookViewController.m in Sources */,
 				766B18BA1A1379480045191D /* AppDelegate.m in Sources */,
 				766B18F01A138D0C0045191D /* RegisterViewController.m in Sources */,
 				76C797591A14862400CB733B /* SearchBookViewController.m in Sources */,
