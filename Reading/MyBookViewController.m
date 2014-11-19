@@ -7,8 +7,10 @@
 //
 
 #import "MyBookViewController.h"
+#import "Book.h"
 
 @interface MyBookViewController ()
+
 
 @end
 

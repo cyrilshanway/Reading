@@ -7,8 +7,11 @@
 //
 
 #import "SearchBookViewController.h"
+#import "SearchViewController.h"
+#import "Book.h"
 
 @interface SearchBookViewController ()
+
 
 @end
 

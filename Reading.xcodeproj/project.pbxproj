@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		765619591A1B26EE00A30E70 /* head-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 765619581A1B26EE00A30E70 /* head-2.jpg */; };
 		766B18B71A1379480045191D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 766B18B61A1379480045191D /* main.m */; };
 		766B18BA1A1379480045191D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 766B18B91A1379480045191D /* AppDelegate.m */; };
 		766B18BD1A1379480045191D /* MyBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 766B18BC1A1379480045191D /* MyBookViewController.m */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		67E7BDA181D928C08CB71DF4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		765619581A1B26EE00A30E70 /* head-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "head-2.jpg"; sourceTree = "<group>"; };
 		766B18B11A1379480045191D /* Reading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		766B18B51A1379480045191D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		766B18B61A1379480045191D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		766B18DA1A137D9C0045191D /* pics */ = {
 			isa = PBXGroup;
 			children = (
+				765619581A1B26EE00A30E70 /* head-2.jpg */,
 				76C797551A14826200CB733B /* barcode.png */,
 				766B18EA1A1388BE0045191D /* Camera-32.png */,
 				766B18EC1A1389450045191D /* pushCamera32.png */,
@@ -167,14 +170,14 @@
 		766B18DD1A137F310045191D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				766B18EE1A138D0C0045191D /* RegisterViewController.h */,
+				766B18EF1A138D0C0045191D /* RegisterViewController.m */,
 				766B18DF1A137FC90045191D /* LoginViewController.h */,
 				766B18E01A137FC90045191D /* LoginViewController.m */,
 				766B18BB1A1379480045191D /* MyBookViewController.h */,
 				766B18BC1A1379480045191D /* MyBookViewController.m */,
 				766B18E51A1385880045191D /* SearchViewController.h */,
 				766B18E61A1385880045191D /* SearchViewController.m */,
-				766B18EE1A138D0C0045191D /* RegisterViewController.h */,
-				766B18EF1A138D0C0045191D /* RegisterViewController.m */,
 				76C797571A14862400CB733B /* SearchBookViewController.h */,
 				76C797581A14862400CB733B /* SearchBookViewController.m */,
 			);
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				766B18EB1A1388BE0045191D /* Camera-32.png in Resources */,
+				765619591A1B26EE00A30E70 /* head-2.jpg in Resources */,
 				766B18C01A1379480045191D /* Main.storyboard in Resources */,
 				766B18F21A1393AB0045191D /* search-32.png in Resources */,
 				766B18DC1A137DB00045191D /* head.jpg in Resources */,
@@ -483,6 +487,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Reading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -497,6 +502,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Reading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Book.h"
 
 @interface MyBookViewController : UIViewController
 
-
+@property Book *myBook;
 @end
 
