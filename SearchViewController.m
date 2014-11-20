@@ -14,7 +14,10 @@
 #import <XMLReader.h>
 #import "Book.h"
 
+
 @interface SearchViewController ()
+
+
 
 @property (weak, nonatomic) IBOutlet UITextField *isbnTextField;
 
@@ -27,9 +30,20 @@
 
 @synthesize scanTextField;
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]
+                                   initWithTarget:self
+                                   action:@selector(dismissKeyboard)];
+    
+    [self.view addGestureRecognizer:tap];
+}
+
+-(void)dismissKeyboard {
+    [scanTextField resignFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -231,7 +245,7 @@
                 self.bookPulisherLabel.text = bookPulisher[@"text"];
                 self.bookPageNumLabel.text = bookPageNum[@"text"];
                 self.isbnLabel.text = isbnNum[@"text"];
-                self.imageView = result;
+                [self.imageView setImage:result];
                 
 
                 
@@ -244,6 +258,7 @@
         
     }];
 }
+
 
 /*
 #pragma mark - Navigation

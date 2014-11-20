@@ -18,7 +18,7 @@ UIAlertViewDelegate,ZBarReaderDelegate
 @property (weak, nonatomic) IBOutlet UITextField *scanTextField;
 
 
-@property (weak, nonatomic) IBOutlet UIImage *imageView;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UILabel *bookiTitleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *bookAuthorLabel;
 @property (weak, nonatomic) IBOutlet UILabel *bookPublishedLabel

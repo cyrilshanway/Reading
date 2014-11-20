@@ -25,6 +25,19 @@
 		766B18F21A1393AB0045191D /* search-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 766B18F11A1393AB0045191D /* search-32.png */; };
 		76C797561A14826200CB733B /* barcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C797551A14826200CB733B /* barcode.png */; };
 		76C797591A14862400CB733B /* SearchBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C797581A14862400CB733B /* SearchBookViewController.m */; };
+		76CCEE961A1C91F000CB6FCA /* Favicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CCEE951A1C91F000CB6FCA /* Favicon.png */; };
+		76CCEEDC1A1CB73600CB6FCA /* UIMenuItem+CXAImageSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CCEEDB1A1CB73600CB6FCA /* UIMenuItem+CXAImageSupport.m */; };
+		76CCEEE21A1CB77400CB6FCA /* broom.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CCEEDE1A1CB77400CB6FCA /* broom.png */; };
+		76CCEEE31A1CB77400CB6FCA /* broom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CCEEDF1A1CB77400CB6FCA /* broom@2x.png */; };
+		76CCEEE41A1CB77400CB6FCA /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CCEEE01A1CB77400CB6FCA /* camera.png */; };
+		76CCEEE51A1CB77400CB6FCA /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CCEEE11A1CB77400CB6FCA /* camera@2x.png */; };
+		76CCEEE71A1CB8F100CB6FCA /* plus-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CCEEE61A1CB8F100CB6FCA /* plus-64.png */; };
+		76CCEEEB1A1CBB5100CB6FCA /* search-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CCEEEA1A1CBB5100CB6FCA /* search-128.png */; };
+		76CCEEF11A1CC45500CB6FCA /* pen-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CCEEEC1A1CC45500CB6FCA /* pen-128.png */; };
+		76CCEEF21A1CC45500CB6FCA /* voice_48px-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CCEEED1A1CC45500CB6FCA /* voice_48px-128.png */; };
+		76CCEEF31A1CC45500CB6FCA /* camera-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CCEEEE1A1CC45500CB6FCA /* camera-128.png */; };
+		76CCEEF41A1CC45500CB6FCA /* search2-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CCEEEF1A1CC45500CB6FCA /* search2-128.png */; };
+		76CCEEF51A1CC45500CB6FCA /* add_48px-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CCEEF01A1CC45500CB6FCA /* add_48px-128.png */; };
 		D2DDE039D00341BACF30B8A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF955B18CB2568A1FF525231 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +82,20 @@
 		76C797551A14826200CB733B /* barcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode.png; sourceTree = "<group>"; };
 		76C797571A14862400CB733B /* SearchBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBookViewController.h; sourceTree = "<group>"; };
 		76C797581A14862400CB733B /* SearchBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBookViewController.m; sourceTree = "<group>"; };
+		76CCEE951A1C91F000CB6FCA /* Favicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Favicon.png; sourceTree = "<group>"; };
+		76CCEEDA1A1CB73600CB6FCA /* UIMenuItem+CXAImageSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIMenuItem+CXAImageSupport.h"; sourceTree = "<group>"; };
+		76CCEEDB1A1CB73600CB6FCA /* UIMenuItem+CXAImageSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIMenuItem+CXAImageSupport.m"; sourceTree = "<group>"; };
+		76CCEEDE1A1CB77400CB6FCA /* broom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = broom.png; sourceTree = "<group>"; };
+		76CCEEDF1A1CB77400CB6FCA /* broom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "broom@2x.png"; sourceTree = "<group>"; };
+		76CCEEE01A1CB77400CB6FCA /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		76CCEEE11A1CB77400CB6FCA /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		76CCEEE61A1CB8F100CB6FCA /* plus-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-64.png"; sourceTree = "<group>"; };
+		76CCEEEA1A1CBB5100CB6FCA /* search-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-128.png"; sourceTree = "<group>"; };
+		76CCEEEC1A1CC45500CB6FCA /* pen-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pen-128.png"; sourceTree = "<group>"; };
+		76CCEEED1A1CC45500CB6FCA /* voice_48px-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_48px-128.png"; sourceTree = "<group>"; };
+		76CCEEEE1A1CC45500CB6FCA /* camera-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-128.png"; sourceTree = "<group>"; };
+		76CCEEEF1A1CC45500CB6FCA /* search2-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search2-128.png"; sourceTree = "<group>"; };
+		76CCEEF01A1CC45500CB6FCA /* add_48px-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_48px-128.png"; sourceTree = "<group>"; };
 		A5EEF3296A8E79D5F8EDAA6D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BF955B18CB2568A1FF525231 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,6 +122,7 @@
 		766B18A81A1379480045191D = {
 			isa = PBXGroup;
 			children = (
+				76CCEED91A1CB6FC00CB6FCA /* UIMenuItem+CXAImageSupport */,
 				766B18DE1A137F410045191D /* View */,
 				766B18DD1A137F310045191D /* ViewControllers */,
 				766B18DA1A137D9C0045191D /* pics */,
@@ -157,12 +185,21 @@
 		766B18DA1A137D9C0045191D /* pics */ = {
 			isa = PBXGroup;
 			children = (
+				76CCEEEA1A1CBB5100CB6FCA /* search-128.png */,
+				76CCEEE61A1CB8F100CB6FCA /* plus-64.png */,
+				76CCEE951A1C91F000CB6FCA /* Favicon.png */,
 				765619581A1B26EE00A30E70 /* head-2.jpg */,
 				76C797551A14826200CB733B /* barcode.png */,
 				766B18EA1A1388BE0045191D /* Camera-32.png */,
 				766B18EC1A1389450045191D /* pushCamera32.png */,
 				766B18F11A1393AB0045191D /* search-32.png */,
 				766B18DB1A137DB00045191D /* head.jpg */,
+				76CCEEEC1A1CC45500CB6FCA /* pen-128.png */,
+				76CCEEED1A1CC45500CB6FCA /* voice_48px-128.png */,
+				76CCEEEE1A1CC45500CB6FCA /* camera-128.png */,
+				76CCEEEF1A1CC45500CB6FCA /* search2-128.png */,
+				76CCEEF01A1CC45500CB6FCA /* add_48px-128.png */,
+				76CCEEDD1A1CB76400CB6FCA /* icons */,
 			);
 			name = pics;
 			sourceTree = "<group>";
@@ -191,6 +228,26 @@
 				766B18E31A13849C0045191D /* Book.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		76CCEED91A1CB6FC00CB6FCA /* UIMenuItem+CXAImageSupport */ = {
+			isa = PBXGroup;
+			children = (
+				76CCEEDA1A1CB73600CB6FCA /* UIMenuItem+CXAImageSupport.h */,
+				76CCEEDB1A1CB73600CB6FCA /* UIMenuItem+CXAImageSupport.m */,
+			);
+			name = "UIMenuItem+CXAImageSupport";
+			sourceTree = "<group>";
+		};
+		76CCEEDD1A1CB76400CB6FCA /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				76CCEEDE1A1CB77400CB6FCA /* broom.png */,
+				76CCEEDF1A1CB77400CB6FCA /* broom@2x.png */,
+				76CCEEE01A1CB77400CB6FCA /* camera.png */,
+				76CCEEE11A1CB77400CB6FCA /* camera@2x.png */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 		86F16A2E19959E28251A0B69 /* Pods */ = {
@@ -293,15 +350,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CCEEF21A1CC45500CB6FCA /* voice_48px-128.png in Resources */,
+				76CCEEE31A1CB77400CB6FCA /* broom@2x.png in Resources */,
 				766B18EB1A1388BE0045191D /* Camera-32.png in Resources */,
+				76CCEEF51A1CC45500CB6FCA /* add_48px-128.png in Resources */,
+				76CCEEE21A1CB77400CB6FCA /* broom.png in Resources */,
+				76CCEEE71A1CB8F100CB6FCA /* plus-64.png in Resources */,
 				765619591A1B26EE00A30E70 /* head-2.jpg in Resources */,
 				766B18C01A1379480045191D /* Main.storyboard in Resources */,
 				766B18F21A1393AB0045191D /* search-32.png in Resources */,
+				76CCEEF31A1CC45500CB6FCA /* camera-128.png in Resources */,
+				76CCEEE41A1CB77400CB6FCA /* camera.png in Resources */,
 				766B18DC1A137DB00045191D /* head.jpg in Resources */,
 				766B18ED1A1389450045191D /* pushCamera32.png in Resources */,
+				76CCEEF11A1CC45500CB6FCA /* pen-128.png in Resources */,
 				766B18C51A1379480045191D /* LaunchScreen.xib in Resources */,
 				76C797561A14826200CB733B /* barcode.png in Resources */,
+				76CCEEE51A1CB77400CB6FCA /* camera@2x.png in Resources */,
+				76CCEE961A1C91F000CB6FCA /* Favicon.png in Resources */,
 				766B18C21A1379480045191D /* Images.xcassets in Resources */,
+				76CCEEF41A1CC45500CB6FCA /* search2-128.png in Resources */,
+				76CCEEEB1A1CBB5100CB6FCA /* search-128.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +428,7 @@
 				766B18F01A138D0C0045191D /* RegisterViewController.m in Sources */,
 				76C797591A14862400CB733B /* SearchBookViewController.m in Sources */,
 				766B18E71A1385880045191D /* SearchViewController.m in Sources */,
+				76CCEEDC1A1CB73600CB6FCA /* UIMenuItem+CXAImageSupport.m in Sources */,
 				766B18B71A1379480045191D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

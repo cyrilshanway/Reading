@@ -21,6 +21,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]
+                                   initWithTarget:self
+                                   action:@selector(dismissKeyboard)];
+    
+    [self.view addGestureRecognizer:tap];
+}
+//添加不輸入時，可以點選螢幕任何區塊挑出textfield
+-(void)dismissKeyboard {
+    [_userNameTextField resignFirstResponder];
+    [_emailTextField resignFirstResponder];
+    [_pwdTextField resignFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning {
